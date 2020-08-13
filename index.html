@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device width, initial-scale=1">
+        <title>Travel</title>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Karma:wght@600&display=swap" rel="stylesheet">
+        <style>
+            body,h1 {
+                font-family: 'Karma', serif;
+                color: white;
+                text-align: center;
+                font-size: 15mm;
+                }
+            .header{
+                background-color: black;
+                font-family: 'Dancing Script', cursive;
+                text-align: center;
+                padding: 15px;
+               }
+            .one {
+                color: #8a323c;
+                padding: 150px;
+                text-align: center;
+                background-image: url(forestbridge.jpg);
+                background-repeat: no-repeat;
+            }
+            .two {
+                color: lightblue;
+                padding: 150px;
+                background-image: url(mountains.jpg);
+            }
+            .three {
+                padding: 200px;
+                background-image: url(sea.jpg);
+                background-repeat: no-repeat;
+            }
+            .four {
+                padding: 150px;
+                background-image: url(city.jpg);
+                background-repeat: no-repeat;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #111;
+                position: sticky;
+                width: 100%;
+                top: 0;
+            }
+            li {
+                float: left;
+                font-size: 25px;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 10px 7px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+                background-color: black;
+            }
+            .active {
+                background-color: #4CAF50;
+            }
+            a {
+            color: white;
+            text-decoration: none;
+            }
+            a:hover {
+                color: white;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2 style="text-shadow: 3px 3px 3px whitesmoke;">Travel</h2>
+        </div>
+        <ul>
+            <li><a href="#forests">Forests</a></li>
+            <li><a href="#mountains">Mountains</a></li>
+            <li><a href="#beaches">Beaches</a></li>
+            <li><a href="#cities">Cities</a></li>
+          </ul>
+        <div id="forests" class="one">
+            <h1><a href="a3.html">FORESTS</a></h1>
+        </div>
+        <div id="mountains" class="two">
+            <h1><a href="a4.html">MOUNTAINS</a></h1>
+        </div>
+        <div id="beaches" class="three">
+            <h1><a href="a5.html">BEACHES</a></h1>
+        </div>
+        <div  id="cities" class="four">
+            <h1 style="padding-bottom: 50px;"><a href="a6.html">CITIES</a></h1>
+        </div>
+    </body>
+</html>
